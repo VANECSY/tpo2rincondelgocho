@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/estilos.css">
+    <link rel="shortcut icon" href="favicon/Logo Rincon Del gocho En BApng.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Rincon Del Gocho - El Verdadero Placer</title>
+</head>
+<ul class="menu">
+    <li>
+        <a href="index.html">Inicio</a> 
+    </li>
+    <li>
+        <a href="gastronomia.html">Menu</a>
+    </li>
+    <li>
+        <a href="somos.html">Quienes somos</a>
+    </li>
+    <li>
+        <a href="contactanos.html">Contactanos</a>
+    </li>
+    </ul>
+<body>
+    <section class="carrito-box">
+        <h2 class="somos">Carrito de Compras</h2>
+        <div class="cart-container" id="cartContainer">
+            <h2><i class='bx bx-cart-download'></i> Resumen de Compra  </h2>
+            <ul id="cartItems">
+                <!-- Los elementos del carrito se agregarán aquí dinámicamente -->
+            </ul>
+            <div id="cartSummary">
+                <p>Total: $<span id="cartTotal">0</span></p>
+                <p>Cantidad de productos: <span id="cartQuantity">0</span></p>
+            </div>
+            <form id="checkoutForm">
+                <input type="email" id="emailInput" placeholder="Ingrese su correo electrónico" required>
+                <button type="submit">Finalizar Compra</button>
+                <button class="delete-button" onclick="eliminarDelCarrito(${item.precio})">Boton de Arrepentimiento</button>
+
+            </form>
+        </div>
+    </section>
+    <script src="/tienda/js/carrito.js"></script>  
+</body>
+</html>
