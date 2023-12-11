@@ -1,3 +1,3 @@
 [build]
-command = "pip install flask && python app.py"
+command = "pip install flask && python myapp.py"
 publish = "path/to/your/static/files"
