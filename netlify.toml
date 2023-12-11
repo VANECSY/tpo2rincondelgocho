@@ -1,3 +1,3 @@
 [build]
-command = "pip install -r requirements.txt && python myapp.py"
+command = "pip install -r requirements.txt && python app.py"
 publish = "path/to/your/static/files"
