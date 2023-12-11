@@ -1,3 +1,4 @@
 [build]
-command = "pip install flask && python tienda/app.py"
+command = "pip install flask pip install flask flask-sqlalchemy flask-marshmallow marshmallow-sqlalchemy
+pymysql -U flask-cors"
 publish = "path/to/your/static/files"
